@@ -25,43 +25,43 @@
 
 <div align="center">
 <p align="center">
-  <a href="#项目动机">项目动机</a>/
-  <a href="#写前必看">写前必看</a>/
-  <a href="#%E7%BB%88%E7%A8%BF%E5%BF%85%E6%9F%A5%E6%8A%95%E7%A8%BF%E5%89%8D%E4%B8%80%E5%91%A8%E4%B8%80%E5%A4%A9">终稿必查</a>/
-  <a href="#百家之言">百家之言</a>/
-  <a href="#组织者列表">组织者列表</a>/
-  <a href="#贡献者列表">贡献者列表</a>
+  <a href="#项目动机">Project motivation</a>/
+  <a href="#写前必看">Must see before writing</a>/
+  <a href="#%E7%BB%88%E7%A8%BF%E5%BF%85%E6%9F%A5%E6%8A%95%E7%A8%BF%E5%89%8D%E4%B8%80%E5%91%A8%E4%B8%80%E5%A4%A9">Final draft must be checked</a>/
+  <a href="#百家之言">The words of a hundred</a>/
+  <a href="#组织者列表">list of organizers</a>/
+  <a href="#贡献者列表">Contributor list</a>
 </p>
 </div>
 
-## <img src="./pics/icon/motivation.png" width="25" />项目动机
+## <img src="./pics/icon/motivation.png" width="25" />Project motivation
 
-很多初学者同学在投稿的时候经常会出现一些共有的小错误，为了节省大家的时间和帮助大家能够尽快的定位一些小的问题。本项目总结了我们在自己投稿过程中的经验和一些身边老师同学的投稿经验，希望能对大家有所帮助，由于我们的水平有限，如有疏漏，还望谅解。谢谢大家。
+Many beginner students often make some common small mistakes when submitting manuscripts. In order to save everyone's time and help everyone to locate some small problems as soon as possible. This project summarizes our own experience in the submission process and the submission experience of some teachers and students around us. I hope it can be helpful to everyone. Due to our limited level, if there are any omissions, please forgive me. thank you all.
 
->本项目的特色：
+>Features of this project：
 >
->1. **写前必看**：包含一些常见的错误，每个错误均配有例子，可以在动手写论文之前快速浏览。
->2. **终稿必查**：包含一些例子，方便快速定位是否自己的论文有错误。
->3. **百家之言**：整理了一些网络上公开的写作资源（并不完全，欢迎补充），方便大家系统学习。
+>1. **MUST READ BEFORE WRITING**: Contains some common mistakes, each with examples for a quick overview before you start writing your paper.
+>2.**The final manuscript must be checked**: contains some examples, which is convenient to quickly locate whether there are errors in your paper.
+>3. **Words of a Hundred Schools**: Some writing resources published on the Internet (not complete, welcome to add) have been compiled to facilitate systematic study.
 
 
 
-### 免责声明
+### Disclaimer
 
-本项目列举的所有技巧**仅供参考**，并不保证正确。本文主要关注于顶会论文，论文写作以实际需求为准。熟悉写作技巧可能会使写作没有明显的失误，而优秀的论文需要不断打磨。
-所有内容仅仅来自于笔者的个人经验、互联网数据、笔者团队日常科研工作中的相关积累，以及笔者团队身边各位大佬的言传身教。有任何问题，欢迎提交 Issue 或 PR。另本项目所用徽章来自互联网，如侵犯了您的图片版权请联系我们删除，谢谢。
+All tips listed in this project are **for reference only** and are not guaranteed to be correct. This paper mainly focuses on the papers of the top conference, and the writing of the papers is subject to the actual needs. Familiarity with writing techniques may lead to writing without obvious blunders, and a good essay requires constant polishing.
+All content only comes from the author's personal experience, Internet data, the relevant accumulation of the author's team's daily scientific research work, and the words and deeds of the big men around the author's team. If you have any questions, please submit Issue or PR. In addition, the badges used in this project are from the Internet. If you infringe the copyright of your pictures, please contact us to delete them, thank you.
 
-### 欢迎贡献
+### Contributions welcome
 
-Paper Writing Tips目前是一个正在进行的中项目，如有疏漏在所难免，欢迎任何的PR及issue讨论。
+Paper Writing Tips is currently an ongoing project, if omissions are inevitable, any PR and issue discussions are welcome.
 
-### 解释
+### explain
 
-下文中，标注"Attention"的内容，是目前组织者认为有（较为）明显争议的建议条目。
+In the following, the content marked "Attention" is the suggested item that the organizer considers to be (more) obviously controversial.
 
-## <img src="./pics/icon/intro.png" width="25" />写前必看
+## <img src="./pics/icon/intro.png" width="25" />Must see before writing
 
-### 公式符号
+### formula symbol
 
 #### 1. Scalar symbols are represented by lowercase Latin letters
 
@@ -270,272 +270,272 @@ Many functions and symbols have ready-made commands, such as: \arg{}, \max{}, \s
 -   After chapters, tables, and pictures are defined with \label{...}, they are automatically referenced and jumped through \ref{...}.
 -   References to subfigures or subtables can be represented using Figure~\ref{fig:figure}(a).
 
-#### 20. 不要把图表中的Caption在正文中复述
+#### 20. Do not repeat the Caption in the chart in the text
 
 ![20](pics/20.jpeg)
 
-- 说明（Caption）是用来写“这个表格是什么”的。
-- 正文是用来写“这个表格说明了什么”的。
+- Caption is used to write "What is this table?".
+- The body is used to write "what does this table say".
 
-#### 21. “三线表”建议：尽量不要画竖线（Attention）
+#### 21. "Three-line table" suggestion: try not to draw vertical lines (Attention)
 
 ![22.jpg](pics/22.jpg)
 
-#### 22. 表格大小调整
+#### 22. table resizing
 
-- 用 \centering 居中；用\small，\scriptsize，\footnotesize，\tiny 调整字号
-- 用\setlength{\tabcolsep}{8pt} 调整列间距
-- 用 p{2cm} 固定列宽
-- 用\multirow，\multicolumn 合并单元格
+- use \centering Centered；use\small，\scriptsize，\footnotesize，\tiny Adjust font size
+- use\setlength{\tabcolsep}{8pt} Adjust column spacing
+- use p{2cm} Fixed column width
+- use\multirow，\multicolumn Merge Cells
 
 ![23.jpg](pics/23.jpg)
 
-#### 23. 矢量图：图像应使用矢量图（如PDF格式）
+#### 23. Vector Graphics: Images should use vector graphics (e.g. in PDF format)
 
-- 使用Adobe illustrator、OmniGraffle等软件绘制后存为矢量图
-- 使用Matplotlib绘制后存储: plt.savefig('draw.pdf')
-- 在LaTeX中使用pgfplots直接绘制
+- Use Adobe illustrator, OmniGraffle and other software to draw and save as vector graphics
+- useMatplotlib save after drawing: plt.savefig('draw.pdf')
+- Drawing directly with pgfplots in LaTeX
 
 ![24.jpg](pics/24.jpg)
 
-#### 24. 图片字体大小介于正文字体与caption之间
+#### 24. The image font size is between the text font and the caption
 
-- 建议图中字体大小保持一致
+- It is recommended to keep the font size in the picture consistent
 
 ![25.jpg](pics/25.jpg)
 
-#### 25. 论文中图片中文字说明字号应和正文文字大小相当
+#### 25. The font size of the text description in the pictures in the paper should be the same as the text size of the main text
 
-- 图片中文字字号大小不宜太大
+- The font size of the text in the picture should not be too large
 
 ![new_25.jpg](pics/update1_pic_25.png)
 
-#### 26. 图表设计应适用于黑白打印
+#### 26. Graphic design should be suitable for black and white printing
 
-- 对黑白打印友好：不要以颜色作为指代图示中线条的唯一特征，可使用实线/虚线 ，亮/暗，不同线形等。
+- Friendly to black and white printing: Don't use color as the only feature to refer to the lines in the illustration, use solid/dotted lines, light/dark, different line shapes, etc.
 
 ![26.jpg](pics/26.jpg)
 
-#### 27. 图片风格保持简洁美观
+#### 27. Keep the picture style simple and beautiful
 
-- 不要使用过多的颜色种类，避免过亮的颜色
-- 使用简洁的图示，尽量少用文字描述（例子除外）
-- 同样功能模块使用统一格式
-- 箭头走向应趋于同一个方向
+- Don't use too many colors, avoid too bright colors
+- Use concise diagrams and minimize textual descriptions (except examples)
+- The same function module uses a unified format
+- Arrows should go in the same direction
 
 ![27.jpg](pics/27.jpg)
 
-### 选词用词
+### word choice
 
-#### 28. 注意连词符的词性
+#### 28. Pay attention to the part of speech of the hyphen
 
-* 一般连词符中，最后一个词是名词的，连起来是形容词词性；
+* 一In general hyphens, the last一A word is a noun, and together it is an adjective part of speech；
 
 ![pic_29](pics/pic_29_1.jpeg)
 
-* 最后一个词是动词的，连起来是动词词性。
+* at last一A word is a verb, and together it is a verb part of speech.
 
 ![pic_29](pics/pic_29_2.jpeg)
 
-#### 29. 词性易错点
+#### 29. part of speech error
 
-* **First**,  Secondly，均为副词
-* training， **test**，validation，均为名词 
+* **First**,  Secondly，both adverbs
+* training， **test**，validation，both nouns 
 
 ![pic_30](pics/pic_30.jpeg)
 
-#### 30. 缩写符合使用习惯
+#### 30. Abbreviations are customary
 
-* 符合习惯，与提出者尽量一致CNN，LSTM，FEVER，ConceptNet，SQuAD，BiDAF，FEVER score，Wikipedia。
-* 初次出现时，全称在前，缩写在后；或缩写在前，用于注释的citation在后。graph attention network (GAT)，pre-trained language model (PLM)；BERT~\citep{BERT}。
-* 领域名、任务名、指标等一般不需要大写，如 natural language processing, question answering, accuracy, macro-F1 score.
+* In line with the habit, try to be consistent with the proposer CNN, LSTM, FEVER, ConceptNet, SQuAD, BiDAF, FEVER score, Wikipedia.
+* When it first appears, the full name comes first, followed by the abbreviation; or the abbreviation comes first, followed by the citation for annotation。graph attention network (GAT)，pre-trained language model (PLM)；BERT~\citep{BERT}。
+* Domain names, task names, indicators, etc. generally do not need to be capitalized, such as natural language processing, question answering, accuracy, macro-F1 score.
 
 ![pic_31](pics/pic_31.jpeg)
 
-#### 31. 注意单复数
+#### 31. Pay attention to singular and plural
 
-* 尤其是不规则单复数变化、不可数名词。
+* Especially irregular singular and plural nouns and uncountable nouns.
 
 ![pic_32](pics/pic_32.jpeg)
 
-#### 32. a/an 跟着元音音素走
+#### 32. a/an follow the vowels
 
 ![pic_33](pics/pic_33.jpeg)
 
-#### 33. the的使用
+#### 33. the usage of
 
-* 注意：一般不会独立出现（不用冠词）可数名词单数，要么加the特指，要么加复数泛指。
+* Notice：一Countable nouns generally do not appear independently (without an article) in the singular, either by adding the specific or by adding the plural to refer generally.
 
 ![pic_34](pics/pic_34.jpeg)
 
-#### 34. 时态：以一般现在时为主（Attention）
+#### 34. Tense: Mainly in the simple present tense (Attention)
 
 ![pic_35](pics/pic_35.jpeg)
 
-#### 35. 避免绝对化表述。
+#### 35. Avoid absolute statements。
 
-- 使用straightforward替换obvious
-- 使用generally、usually、often替换always
-- 使用rare替换never
-- 使用alleviate、relieve替换avoid、eliminate
+- replace obvious with straightforward
+- Replace always with generally, usually, often
+- Use rare instead of never
+- Use alleviate, relieve to replace avoid, eliminate
 
 ![36.jpg](pics/36.jpg)
 
-#### 36. 避免一些模糊的表述，比如：meaning, semantic, better等。
+#### 36. Avoid vague expressions, such as: meaning, semantic, better, etc.
 
 ![37.jpg](pics/37.jpg)
 
-以better举例，也就是当表示一个事物更好时，不能仅仅说它更好，需要给出相应的解释与理由
+Taking better as an example, that is, when it means that a thing is better, it cannot just be said that it is better, but corresponding explanations and reasons need to be given.
 
-### 句子表述
+### Sentence expression
 
-#### 37. 避免过多使用代词：it，they等，模型名缩写也不长，并且更清楚。
+#### 37. Avoid excessive use of pronouns: it, they, etc. Model name abbreviations are not too long and clearer.
 
 ![38.jpg](pics/38.jpg)
 
-#### 38. 避免过多贴标签，比如在谈论效果好时。
+#### 38. Avoid over-labeling, such as when talking about good results.
 
-提出的方法到底改善了哪里，是什么导致的这个结果？
+Where exactly did the proposed method improve and what led to this result?
 
 ![39.jpg](pics/39.jpg)
 
-#### 39. 一句话说一件事。尽量使用简单句，少使用长的复合句。
+#### 39. Say one thing in a word. Use simple sentences as much as possible and avoid long compound sentences.
 
 ![40.jpg](pics/40.jpg)
 
-#### 40. 观察/发现？假设？方法？效果？不要混着说。
+#### 40. Observation/discovery? Suppose? method? Effect? Don't mix things up.
 
 ![41.jpg](pics/41.jpg)
 
-### 段落布局
+### Paragraph layout
 
-#### 41. 一行字数未超过1/4时，建议删除或者增加字数。（Attention）
-- 可选：可以尝试在该段话的最后，添加`\looseness=-1`，有时可以在不删除最后一行的情况下，将最后一行的个别单词“挤上去”。
+#### 41. When the number of words in a line does not exceed 1/4, it is recommended to delete or increase the number of words. (Attention)
+- Optional: try adding `\looseness=-1` at the end of the paragraph, sometimes you can "squeeze" individual words in the last line without deleting the last line.
 
 ![pic_42](pics/pic_42.png)
 
-### 参考文献
+### references
 
-#### 42. 参考文献引用需要排查是否在句子中做成分
+#### 42. Reference citation needs to check whether it is a component in the sentence
 
-* 要点：引用使用\citep{}，作为插入语；或\citet{}，作为句子主要成分如主语、宾语等。
+* Important: Citations use \citep{}, as an interjection; or \citet{}, as the main components of a sentence such as subject, object, etc.
 
 ![pic_43](pics/pic_43.png)
 
-#### 43. 尽量引用发表的版本而非arXiv版本。
+#### 43. Whenever possible, cite the published version rather than the arXiv version。
 
-* 会显得正规一些
+* will appear more formal
 
 ![pic_44](pics/pic_44.png)
 
-#### 44. 引用条目的格式尽量前后一致
+#### 44. Citations should be formatted as consistently as possible
 
-* 如会议名缩写、是否包含会议时间地点等是否所有的参考文献格式保持了一致
+* Such as the abbreviation of the conference name, whether to include the time and place of the conference, etc. Whether all the reference formats are consistent
 
 ![pic_45](pics/pic_45.png)
 
-## <img src="./pics/icon/resource.png" width="25" />终稿必查——投稿前一周，一天
+## <img src="./pics/icon/resource.png" width="25" />Final manuscript must be checked - one week before submission, one day
 
-### 关于科技英语书写习惯
+### About the Writing Habits of English for Science and Technology
 
-#### 1.  可参考拼写检查软件，检查文本是否有语病或不符习惯的表达。
+#### 1.  You can refer to spell-checking software to check the text for language errors or irregular expressions.
 
-* 例如 [grammarly](https://app.grammarly.com), [writefull](https://www.writefull.com/).
+* E.g [grammarly](https://app.grammarly.com), [writefull](https://www.writefull.com/).
 
-#### 2.  不要使用 didn't can't don't isn't aren't 之类的缩写形式 任何时候都不要用撇号缩写。对于所有格，完全不要用，非要表达类似意思，用of短语。对于引号，要尽力避免。
+#### 2. Don't use abbreviations like didn't can't don't isn't aren't Don't use an apostrophe for abbreviations at any time. For the possessive, don't use it at all, if you have to express a similar meaning, use the phrase of. For quotation marks, try to avoid them.
 
-#### 3.  使用缩写（如模型名、定义等），需在使用的最初始位置定义。
+#### 3.  Use abbreviations (such as model name, definition, etc.), which need to be defined in the most initial position used.
 
-#### 4.  模型名字大小写保持一致，如BERT，ELECTRA，避免Bert，Electra，electra混合使用。
+#### 4.  The case of the model name should be consistent, such as BERT, ELECTRA, and avoid mixed use of Bert, Electra, and electra.
 
-#### 5.  例句、例子考虑用斜体
+#### 5.  Example sentences, examples consider using italics
 
 #### 6.  \begin\item改成正常段落可以使页面更紧凑（然后在每段前手工加打黑点$\bullet$），浪费过多空间有被怀疑灌水之嫌
 
-#### 7.  脚注的写法：一般情况下，脚注可以写在“脚注相关的地方后第一个非左标点符号（如左引号、左括号）”后面。\footnote命令和它前面的标点符号之间没有空格。
+#### 7.  Changing \begin\item to a normal paragraph can make the page more compact (and then manually add a black dot $\bullet$ before each paragraph), wasting too much space may be suspected of watering
 
-#### 8.  A和an的区别在于发音：an LSTM cell, an F/H/L/M/N/S/X, a U.
+#### 8.  The difference between A and an is the pronunciation: an LSTM cell, an F/H/L/M/N/S/X, a U.
 
-#### 9.  文章各级标题的大小写风格统一，例如短语首字母大写或单词首字母大写
+#### 9.  The capitalization style of the title at all levels of the article is consistent, such as the capitalization of the first letter of a phrase or the first letter of a word
 
-#### 10.  使用babel实现单词按音标音节换行（hyphenation patterns）的效果，即`\usepackage[english]{babel}`
+#### 10. Use babel to achieve the effect of word breaking by phonetic syllables (hyphenation patterns), ie `\usepackage[english]{babel}`
 
-### 关于图片：
+### About pictures：
 
-#### 11.  图片内部的字体应统一且跟正文文字大小一致。
+#### 11.  The font inside the image should be uniform and the same size as the text of the text.
 
-#### 12.  整张图片两侧尽量不要有空白，保持紧凑。
+#### 12.  Try not to have blank space on both sides of the entire image, keep it compact.
 
-#### 13.  图片通常在每一页的最上方或中间，而不是最下方。
+#### 13.  Images are usually at the top or middle of each page, not the bottom。
 
-#### 14.  同类型模块颜色尽可能保持一个色系，每类单元用同一个颜色填充或作为边框。
+#### 14. The colors of the same type of modules should be kept in the same color system as much as possible, and each type of unit should be filled with the same color or used as a border。
 
-#### 15.  同样色系，如果某个模块颜色更深更亮 ，代表这个模块更为重要。如果不是想表达更为重要，更为核心，请在各个模块之间保持均衡颜色分配，比如灰度值尽量一致。
+#### 15.  In the same color system, if a module is darker and brighter, it means that this module is more important. If you don't want to express more important and more core, please maintain a balanced color distribution between each module, for example, the gray value should be as consistent as possible.
 
-#### 16.  不得使用过多的颜色种类，颜色最好不要高于六种。
+#### 16. Do not use too many colors, preferably no more than six colors.
 
-#### 17.  图片使用矢量图。
+#### 17.  Pictures use vector graphics.
 
-#### 18.  figure本意是提供比文字更直观、更明了简洁的表达的，应尽可能动用合理的绘画元素，而不是大量用文字标记。figure元素、规范用最小集合、最统一、一致的设置完成，一般不会难看。
+#### 18.  The original intention of figure is to provide a more intuitive, clearer and more concise expression than text. Reasonable drawing elements should be used as much as possible, rather than a large number of text marks. Figure elements, specifications are done with the smallest set, the most uniform, consistent settings, generally not ugly。
 
-#### 19.  细节到线型、配色：第一，保持统一（低描述复杂性），第二，用一个意思、类别的图形元素该用近似、一样的线形、配色（认知直观性）。
+#### 19.  Details to line type and color matching: first, keep it uniform (low descriptive complexity), second, with a meaning, category of graphic elements should be similar, the same line shape, color matching (cognitive intuition)。
 
-#### 20.  箭头方向尽量保持同向，避免出现来回折转。流程图中避免出现孤立组件（无任何来源或去向箭头标识）。
+#### 20.  The directions of the arrows should be kept in the same direction as much as possible to avoid turning back and forth. Avoid isolated components (without any source or destination arrows) in flowcharts.
 
-### 关于引用：
+### About Citations：
 
-#### 21.  引用标记的选取：
+#### 21.  Selection of reference marks：
 
-* 引用在文字外（parent），使用 \cite。
+* Quoted out of text（parent），use \cite。
 
-* 引用在文字内（within text）
+* quoted in text（within text）
 
-  * ACL/NAACL/EMNLP模板使用\citet{...}；
-  * COLING模板使用\newcite{...}；
-  * AAAI/IJCAI模板使用\citeauthor{...} \shortcite{...}；
-  * IEEE模版：\citeauthor{...}~(\citeyear{...})
+  * ACL/NAACL/EMNLP Template use \citet{...}；
+  * COLING templates use \newcite{...};
+  * AAAI/IJCAI templates use \citeauthor{...} \shortcite{...};
+  * IEEE template: \citeauthor{...}~(\citeyear{...})
 
-  效果：(Zhang et al. 2020) vs. Zhang et al. (2020)
+  Effect：(Zhang et al. 2020) vs. Zhang et al. (2020)
 
-#### 22.  如果篇幅较紧张，可以在引用中使用会议期刊名称的缩写。
+#### 22.  If space is tight, use the abbreviation of the conference journal name in the citation.
 
-* 可以参考工具 [SimBiber](https://github.com/MLNLP-World/SimBiber)
+* tool for reference [SimBiber](https://github.com/MLNLP-World/SimBiber)
 
-#### 23.  bib管理注意保持会议/期刊名称全称和缩写一致性，检查年份、卷号、页码等，不要完全依赖 scholar 提供的信息（可能存在缺失或格式混乱）。
+#### 23.  Bib management pays attention to keeping the full name and abbreviation of the conference/journal name consistent, checking the year, volume number, page number, etc., and do not rely solely on the information provided by scholar (there may be missing or confusing formats).
 
-* 可以参考工具 [Rebiber](https://github.com/yuchenlin/rebiber)
+* tool for reference [Rebiber](https://github.com/yuchenlin/rebiber)
 
-#### 24.  章节、表格、图片使用\label定义后，可通过\ref自动引用跳转。
+#### 24.  After chapters, tables, and pictures are defined with \label, they can be automatically referenced and jumped through \ref.
 
-#### 25.  引用和正文之间留有一个空格，而不是紧邻正文字母。
+#### 25.  Leave a space between the citation and the text, not next to the text letter.
 
-#### 26.  不要重复引用同一论文的不同版本，例如 arXiv和正式会议论文。
+#### 26.  Do not repeatedly cite different versions of the same paper, such as arXiv and formal conference papers.
 
-### 关于公式：
+### About formulas：
 
-#### 27.  公式为句子的一部分。因此可在公式内部（尤其是多行）加入逗号和句号。
+#### 27.  A formula is part of a sentence. So commas and periods can be added inside formulas (especially on multiple lines).
 
-#### 28.  对于公式后面的文字，若与公式组成完成的句子，则首字母不需要大写，并紧接在公式后面；若另起新的句子或段落，则在公式结束符\end后换行，并句子首字母大写，开启新的句子。
+#### 28. For the text after the formula, if it forms a complete sentence with the formula, the first letter does not need to be capitalized, and it is immediately after the formula; if a new sentence or paragraph is started, a new line should be added after the end character \end of the formula, and the first letter of the sentence should be added. Capitalize letters to start a new sentence.
 
-### 投稿前注意事项：
+### Precautions before submitting：
 
-#### 29.  检查文章的匿名性，不能包含个人与机构信息。
+#### 29.  Check articles for anonymity and cannot contain personal and institutional information。
 
-#### 30.  检查是否超页（最后时刻慎重勿随意改图表大小）
+#### 30. Check for overpage (at the last moment, be careful not to arbitrarily change the size of the chart)
 
-#### 31.  检查标题和摘要与投稿系统填写框内的信息是否对应。
+#### 31.  Check that the title and abstract correspond to the information in the input box of the submission system。
 
-#### 32.  检查提交的数据与代码，不能包含个人与机构信息，尤其 code 里面一些 hard coded 的模型或数据路径等需要处理掉，另外需要注意隐藏文件夹（如 .git）
+#### 32.  Check the submitted data and code. It cannot contain personal and institutional information. In particular, some hard coded models or data paths in the code need to be disposed of. In addition, you need to pay attention to hidden folders (such as .git）
 
-#### 33.  Overleaf 在部分会议投稿前可能访问缓慢，请注意LaTex备份
+#### 33.  Overleaf may be slow to access before some conference submissions, please pay attention to LaTex backup
 
-#### 34.  论文的历史版本可以用时间编号，避免提交的不是最终版本
+#### 34.  The historical version of the paper can be numbered with time to avoid submitting a non-final version
 
-#### 35.  截稿前一天最好提前交一个版本的论文以及附录，防止截稿时服务器崩溃
+#### 35.  It is best to submit a version of the paper and appendices one day before the deadline to prevent the server from crashing when the manuscript is due.
 
-#### 36.  交稿后仍需要关注会议官网和注册邮箱，以及时收到可能存在的会议截稿日期延后的消息。
+#### 36.  After submitting the manuscript, you still need to pay attention to the conference official website and registered mailbox, and receive the news of the possible extension of the conference deadline in time.
 
-##  <img src="./pics/icon/catalogue.png" width="25" />百家之言
+##  <img src="./pics/icon/catalogue.png" width="25" />The words of a hundred
 
 ●   [清华大学刘洋老师的CWMT-2014报告：机器翻译学术论⽂文写作⽅方法和技巧](http://nlp.csai.tsinghua.edu.cn/~ly/talks/cwmt14_tut.pdf)
 
