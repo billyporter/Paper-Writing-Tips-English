@@ -63,62 +63,62 @@ Paper Writing Tips目前是一个正在进行的中项目，如有疏漏在所�
 
 ### 公式符号
 
-#### 1. 标量符号用小写拉丁字母表示
+#### 1. Scalar symbols are represented by lowercase Latin letters
 
-* 要点: 为避免混淆字母 l 和数字 1 ，字母 l 可用 \ell 替代。
+* Important: To avoid confusing the letter l with the number 1, the letter l can be replaced with \ell.
 
 ![pics_1](pics/1.png)
 
-#### 2. 有结构的值使用 \boldsymbol（Attention）
+#### 2. Use \boldsymbol(Attention) for structured values
 
-* 要点: 有结构的值例如句子序列、树、图等 （下图仅展示为句子序列情况）
+* Key Point: Structured values ​​such as sentence sequences, trees, graphs, etc.
 
 ![pics_2](pics/2.png)
 
-#### 3. \boldsymbol 的集合可用 \mathcal （Attention）
+#### 3. The set of \boldsymbols is available with \mathcal (Attention)
 
 ![pics_3](pics/3.png)
 
-#### 4. 向量值小写加粗，矩阵大写加粗
+#### 4. The vector value is lowercase and bold, the matrix is ​​uppercase and bolder
 
-* 要点: 拉丁字母用\mathbf，希腊字母用\boldsymbol。
+* Important: Use \mathbf for Latin letters and \boldsymbol for Greek letters
 
 ![pics_4](pics/4.png)
 
-#### 5. 数域、期望等使用\mathbb
+#### 5. Use \mathbb for number fields, expectations, etc.
 
 ![pics_5](pics/5.png)
 
-#### 6. 保持元素与集合的符号对应
+#### 6. Keep elements corresponding to the symbols of the set
 
 ![pics_6](pics/6.png)
 
-#### 7. 写作风格要正式，避免缩写
+#### 7. Write in a formal style and avoid abbreviations
 
-* `don't` 拆开写成 `do not`s
-* 所有格 `'s` 尽量转化为 `of`
+* don't split up and write do nots
+* Possessive 's are converted to of
 
 ![pics_7](pics/7.png)
 
-#### 8. 拉丁文惯用语
+#### 8. Latin Idioms
 
-- `e.g.,` 表示 `for example,`
-- `i.e.,` 表示 `that is,`
-- `et al.` 表示 `and others of the same kind,`
-- `etc.` 表示 `and others,`，不用于列举人
-  - `et al.` 或 `etc.` 在句末时，不用再添加额外的句号
+- e.g., means for example,
+- i.e., means that is,
+- et al. means and others of the same kind,
+- etc. means and others, not used to enumerate people
+  - et al. or etc. at the end of a sentence without adding an extra period
 
 ![8.png](pics/8.png)
 
-#### 9. 英文引号
+#### 9. English quotation marks
 
-键位如图所示，使用 `` 和 '' 分别表示左右引号，而不是其他符号或任何中文引号。
+The key positions are as shown, using `` and '' to represent left and right quotation marks respectively, not other symbols or any Chinese quotation marks
 
 ![9.png](pics/9.png)
 
-#### 10. 不间断空格 "~"
+#### 10. Non-breaking space "~"
 
-使用 `~` 表示不间断空格，不间断空格不会导致意外的换行，例如：
+Use ~ for non-breaking spaces, which do not cause unexpected newlines, eg: ' for left and right quotes respectively, not other symbols or any Chinese quotes.：
 
 ```latex
 Figure~\ref{} shows the model performance.
@@ -129,9 +129,9 @@ Section~\ref{} concludes this paper.
 
 ![10.png](pics/10.png)
 
-#### 11. URL 链接
+#### 11. URL linnk
 
-使用 `\url{}` 命令，需要导入包：
+To use the \url{} command, you need to import the package:
 
 ```latex
  \usepackage{hyperref}
@@ -139,33 +139,33 @@ Section~\ref{} concludes this paper.
 
 ![11.png](pics/11.png)
 
-#### 12. 引号只表示所谓，不表示引用（Attention）
+#### 12. Quotes only mean so-called, not citation (Attention)
 
-引用的表述考虑使用斜体 `\textit{}` 而不是引号。
+Quoted expressions consider italic \textit{} instead of quotation marks.
 
 ![12.png](pics/12.png)
 
-#### 13. 非单个字母的变量名
+#### 13. Non-single-letter variable names
 
-公式中的 `softmax`，`proj`，`enc` 等超过一个字母的变量或符号，使用正文字体，即使用 `\textrm` 或 `\textit` 命令。
+Variables or symbols with more than one letter such as softmax, proj, enc, etc. in the formula, use the text font, that is, use the \textrm or \textit command.
 
 ![13.png](pics/13.png)
 
-#### 14. 使用函数命令
+#### 14. Using function commands
 
-许多函数和符号有现成的命令，例如：`\arg{}`，`\max{}`，`\sin{}`，`\tanh{}`，`\inf`， `\det{}`， `\exp{}`.
+Many functions and symbols have ready-made commands, such as: \arg{}, \max{}, \sin{}, \tanh{}, \inf, \det{}, \exp{}.
 
 ![14.png](pics/14.png)
 
-#### 15. 公式中的括号，应通过\left，\right进行标记
+#### 15. Parentheses in formulas should be marked by \left, \right
 
 ![15](pics/15.jpeg)
 
-- 如 \left(\right), \left{\right}, \left<\right>, \left|\right|等。
+- Such as \left(\right), \left{\right}, \left<\right>, \left|\right|, etc.
 
-- 括号中的分割通过\middle实现。
+- The division in parentheses is achieved by \middle.
 
-- Latex代码如下：
+- The latex code is as follows:
 
     ```Latex
   \begin{gather}
@@ -179,13 +179,13 @@ Section~\ref{} concludes this paper.
   \end{gather}
   ```
 
-#### 16. 使用 align 表示一组公式，等号对齐
+#### 16. Use align to represent a set of formulas, with equal signs aligned.
 
 ![16](pics/16.jpeg)
 
-- 使用 align 表示一组公式，等号对齐。
+- Use align to represent a set of formulas, with equal signs aligned.
 
-- Latex代码如下：
+- The latex code is as follows:
 
     ```Latex
   \begin{gather}
@@ -199,13 +199,13 @@ Section~\ref{} concludes this paper.
   \end{align}
   ```
 
-#### 17. 只对refer的公式中加编号（Attention）
+#### 17. Only add numbers to the formula of the refer (Attention)
 
 ![17](pics/17.jpeg)
 
-- 推荐：只对refer的公式加编号，\nonumber去编号。
+- Recommendation: Only add numbers to refer formulas, and \nonumber to number them.
 
-- Latex代码如下：
+- The latex code is as follows:
 
     ```Latex
   \begin{equation}
@@ -217,15 +217,15 @@ Section~\ref{} concludes this paper.
   \end{equation}
   ```
 
-### 表格图片
+### table image
 
-#### 18. 使用Booktabs绘制更好看的表格
+#### 18. Use Booktabs to draw better-looking tables
 
 ![18](pics/18.jpeg)
 
-- 绘制表格时，使用 \usepackage{booktabs}，从而借助 \toprule, \bottomrule, \midrule, \cmidrule 命令，画出好看的分隔线。
+- When drawing tables, use \usepackage{booktabs} to draw nice dividers with the help of \toprule, \bottomrule, \midrule, \cmidrule commands.
 
-- Latex代码如下：
+- The latex code is as follows:
 
     ```Latex
   % Example of a table with booktabs from https://nhigham.com/2019/11/19/better-latex-tables-with-booktabs/.
@@ -265,10 +265,10 @@ Section~\ref{} concludes this paper.
   \end{table}
   ```
 
-#### 19. 章节、表格、图片的引用
+#### 19. References to Chapters, Tables, Figures
 
--   章节、表格、图片使用\label{...}定义后，通过\ref{...}自动引用跳转。
--   对子图或子表的引用可以使用Figure~\ref{fig:figure}(a)来表示。
+-   After chapters, tables, and pictures are defined with \label{...}, they are automatically referenced and jumped through \ref{...}.
+-   References to subfigures or subtables can be represented using Figure~\ref{fig:figure}(a).
 
 #### 20. 不要把图表中的Caption在正文中复述
 
